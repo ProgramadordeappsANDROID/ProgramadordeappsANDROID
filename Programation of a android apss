@@ -1,0 +1,16 @@
+//Este codigo es OPEN SORUCE Puede ser modificado y dar recomendaciones de que se le puede aportar
+package com.example.ww2history
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        variablesYConstantes()
+    }
+    // Variables
+    private fun variablesYConstantes() {
+    }
+}
